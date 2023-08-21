@@ -1,0 +1,8 @@
+#ddev-generated
+services:
+  timescaledb:
+    container_name: ddev-${DDEV_SITENAME}-timescaledb
+    image: oblakstudio/timescaledb-mongo-mysql-fdw:latest
+    labels:
+      com.ddev.site-name: ${DDEV_SITENAME}
+      com.ddev.approot: $DDEV_APPROOT

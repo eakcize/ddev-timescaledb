@@ -1,0 +1,17 @@
+name: timescaledb
+
+project_files:
+  - commands/host/tsdb-config
+  - scripts/configure-mysql.bash
+  - scripts/configure-mongo.bash
+  - scripts/configure-tsdb.bash
+  - scripts/post-install.bash
+  - scripts/tsdb-mysql.bash
+  - scripts/tsdb-mongo.bash
+  - scripts/tsdb-core.bash
+  - scripts/tsdb.sql
+  - docker-compose.timescaledb.yaml
+
+post_install_actions:
+  - |
+    #ddev-description: Run 'ddev tsdb-config to configure TimescaleDB'
