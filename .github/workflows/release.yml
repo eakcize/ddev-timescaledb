@@ -6,6 +6,12 @@ on:
       - README.md
     branches:
       - master
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   release:
     name: Release
@@ -23,4 +29,6 @@ jobs:
       - name: Install npm dependencies
         run: npm install
       - name: Release
-        run: npm semantic-release
+        run: npm run semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
