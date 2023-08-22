@@ -1,4 +1,4 @@
-#ddev-generated
+--ddev-generated
 drop table if exists daily_sensor_report;
 CREATE TABLE daily_sensor_report (
     aggregation_date DATE,
