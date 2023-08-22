@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/eakcize/ddev-timescaledb/compare/v1.0.0...v1.1.0) (2023-08-22)
+
+
+### Features
+
+* Fixed bash invocation ([f2d5254](https://github.com/eakcize/ddev-timescaledb/commit/f2d5254937f1f0cb8904c846834e21af7303aeb2))
+
 # 1.0.0 (2023-08-21)
 
 
