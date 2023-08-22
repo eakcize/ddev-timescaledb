@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.3...v1.1.4) (2023-08-22)
+
+
+### Bug Fixes
+
+* **sql:** call procedure ([8b98254](https://github.com/eakcize/ddev-timescaledb/commit/8b9825415a35fa7157a48a21cd36408f40e6aaa7))
+
 ## [1.1.3](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.2...v1.1.3) (2023-08-22)
 
 
