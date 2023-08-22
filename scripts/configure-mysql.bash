@@ -11,5 +11,5 @@ if [ -z "$DAPI_CONTAINER_ID" ]; then
 fi
 
 docker cp "$D/../../scripts/tsdb-mysql.bash" "$TSDB_CONTAINER_ID:/tmp/mysql.bash"
-docker exec --user postgres "$TSDB_CONTAINER_ID" bash -c "/tmp/mysql.bash $DAPI_CONTAINER_NAME $DASHBOARD_API_DATABASE_NAME"
+docker exec --user postgres "$TSDB_CONTAINER_ID" bash -c "/tmp/mysql.bash '$DAPI_CONTAINER_NAME' '$DASHBOARD_API_DATABASE_NAME'"
 

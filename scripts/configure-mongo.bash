@@ -12,4 +12,4 @@ if [ -z "$FS_CONTAINER_ID" ]; then
 fi
 
 docker cp "$D/../../scripts/tsdb-mongo.bash" "$TSDB_CONTAINER_ID:/tmp/mongo.bash"
-docker exec --user postgres "$TSDB_CONTAINER_ID" bash -c "/tmp/mongo.bash $FS_CONTAINER_NAME $FILLER_SERVICE_DATABASE_NAME"
+docker exec --user postgres "$TSDB_CONTAINER_ID" bash -c "/tmp/mongo.bash '$FS_CONTAINER_NAME' '$FILLER_SERVICE_DATABASE_NAME'"
