@@ -3,6 +3,8 @@ services:
   timescaledb:
     container_name: ddev-${DDEV_SITENAME}-timescaledb
     image: oblakstudio/timescaledb-mongo-mysql-fdw:latest
+    ports:
+      - "5432:5432"
     labels:
       com.ddev.site-name: ${DDEV_SITENAME}
       com.ddev.approot: $DDEV_APPROOT
