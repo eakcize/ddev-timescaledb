@@ -27,7 +27,7 @@ CREATE SERVER mysql_server
 -- Create the user mapping
 CREATE USER MAPPING  FOR postgres
         SERVER mysql_server
-        OPTIONS (username 'mysql', password 'mysql');
+        OPTIONS (username 'db', password 'db');
 
 -- Create the foreign table for Device
 CREATE FOREIGN TABLE "device" (
