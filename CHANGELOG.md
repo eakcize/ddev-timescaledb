@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.1...v1.1.2) (2023-08-22)
+
+
+### Bug Fixes
+
+* **timescale:** expose ports ([013a726](https://github.com/eakcize/ddev-timescaledb/commit/013a726151f23f35ececfe9ff6060ab486d490eb))
+
 ## [1.1.1](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.0...v1.1.1) (2023-08-22)
 
 
