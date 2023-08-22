@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.0...v1.1.1) (2023-08-22)
+
+
+### Bug Fixes
+
+* **mysql:** credentials for mysql updated ([4f38c71](https://github.com/eakcize/ddev-timescaledb/commit/4f38c7188a8e56428a640d07bc23b0aa77ed2832))
+
 # [1.1.0](https://github.com/eakcize/ddev-timescaledb/compare/v1.0.0...v1.1.0) (2023-08-22)
 
 
