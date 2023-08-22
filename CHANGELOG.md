@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.2...v1.1.3) (2023-08-22)
+
+
+### Bug Fixes
+
+* **sql:** translated to sql like comment sintax ([a44281b](https://github.com/eakcize/ddev-timescaledb/commit/a44281b18861f1040881b66a7c29ee5b8c6c49b0))
+
 ## [1.1.2](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.1...v1.1.2) (2023-08-22)
 
 
