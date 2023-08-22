@@ -61,7 +61,7 @@ GROUP BY sensor_id, aggregation_date;
 $$ LANGUAGE SQL;
 
 
-CREATE  or replace VIEW daily_facts
+CREATE or replace VIEW daily_facts
     AS
 
 	select
@@ -74,3 +74,6 @@ CREATE  or replace VIEW daily_facts
 	join pump p on p.id = t.pump_id
 
 	join company c on c.id = p.company_id ;
+
+
+call processAllInputOutput()
