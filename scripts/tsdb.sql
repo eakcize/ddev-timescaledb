@@ -75,5 +75,8 @@ CREATE or replace VIEW daily_facts
 
 	join company c on c.id = p.company_id ;
 
+CREATE extension pg_cron ;
 
-call processAllInputOutput()
+SELECT cron.schedule('processDailyInputOutput', '0 2 * * *', 'CALL processDailyInputOutput( ( CURRENT_DATE - interval ''1 Day'')::DATE )');
+
+UPDATE cron.job SET nodename = ''
