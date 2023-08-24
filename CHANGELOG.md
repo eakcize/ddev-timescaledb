@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.4...v1.2.0) (2023-08-24)
+
+
+### Features
+
+* **crono:** process data once a day ([6155151](https://github.com/eakcize/ddev-timescaledb/commit/6155151d53b997a2203ea7f162b4272033c95205))
+
 ## [1.1.4](https://github.com/eakcize/ddev-timescaledb/compare/v1.1.3...v1.1.4) (2023-08-22)
 
 
